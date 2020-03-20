@@ -31,7 +31,7 @@ public class AuthServlet extends HttpServlet
 		
 		if(Username.equals("shvat") && Password.equals("admin"))
 		{
-			request.getRequestDispatcher("menu.jsp").forward(request, response);
+			request.getRequestDispatcher("dashboard.jsp").forward(request, response);
 		}
 		else
 		{
